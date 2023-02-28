@@ -1,0 +1,135 @@
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+}
+body {
+  background-color: #1d1b3d;
+
+  position: relative;
+}
+#logo-image {
+  position: absolute;
+  margin: 0.2rem -0.3rem;
+  width: 6.5rem;
+}
+
+
+#fullstackegy {
+  position: absolute;
+  color: white;
+  font-size: 2.2rem;
+  font-weight: 550;
+  margin-left: 38rem;
+  margin-top: 1rem;
+  letter-spacing: 0.02rem;
+  font-family: Good Times;
+}
+#fullstackegy-underline {
+  position: absolute;
+  height: 0.1rem;
+  width: 9.5rem;
+
+  margin: 3.7rem 44rem;
+  background-color: lightgray;
+}
+#underline-down-text {
+  position: absolute;
+  color: #eeb33a;
+  margin-top: 4.1rem;
+  margin-left: 38.9rem;
+  font-family: "League Spartan", sans-serif;
+  font-size: 0.92rem;
+}
+#under-development {
+  position: absolute;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 8rem;
+  margin-left: 36.5rem;
+}
+
+#footer {
+  position: absolute;
+  color: white;
+  margin: 42.9rem 2rem;
+}
+#insta {
+  position: absolute;
+  width: 2rem;
+  margin: 42.5rem 85rem;
+}
+#twitter {
+  position: absolute;
+  width: 2.2rem;
+  margin: 42.4rem 85.1rem;
+}
+#linkedin {
+  position: absolute;
+  width: 1.6rem;
+  margin: 42.7rem 91rem;
+}
+#vector {
+  position: absolute;
+
+  margin: 13rem 32.5rem;
+  width: 30rem;
+  z-index: 1;
+}
+
+#vector-down-text {
+  position: absolute;
+  color: hsl(40, 88%, 49%);
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 36rem;
+  margin-left: 44rem;
+}
+
+.cloud1 {
+  top: 50%;
+  width: 41rem;
+  height: 13rem;
+  background-color: #252250;
+  position: absolute;
+  border-radius: 10rem;
+  margin: 21rem 29rem;
+  opacity: 0.8;
+}
+.cloud1::before {
+  content: "";
+  position: absolute;
+  top: -80%;
+  left: 8%;
+  width: 30%;
+  height: 100%;
+  background: #252250;
+  border-radius: 48%;
+}
+.cloud1::after {
+  content: "";
+  position: absolute;
+  top: -80%;
+  left: 35%;
+  width: 50%;
+  height: 120%;
+  background: #252250;
+  border-radius: 50%;
+}
+@media (max-width: 480px) {
+  html {
+    font-size: 4px;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 8px;
+  }
+}
